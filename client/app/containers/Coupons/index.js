@@ -11,7 +11,7 @@ function index() {
   const [totalPrice, setTotalPrice] = useState(0);
   const [discountedPrice, setDiscountedPrice] = useState(0);
 
-  const url = 'http://localhost:3000/api';
+  const url = 'http://35.154.163.7:3000/api';
 
   // Fetch the list of coupons on mount
   useEffect(() => {

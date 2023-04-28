@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'http://localhost:3000/api';
+const url = 'http://35.154.163.7:3000/api';
 
 export const loadRazorpay = (price) => {
   const orderAmount = price + "00";

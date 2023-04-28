@@ -9,7 +9,7 @@ function Payment() {
   const [orders, setOrders] = useState([]);
 
 
-  const url = 'http://localhost:3000/api';
+  const url = 'http://35.154.163.7:3000/api';
 
   useEffect(() => {
     let isMounted = true;

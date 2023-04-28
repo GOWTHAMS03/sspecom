@@ -24,7 +24,7 @@ const Shipping = props => {
     cartTotal,
   } = props;
 
-  const url = 'http://localhost:3000/api';
+  const url = 'http://35.154.163.7:3000/api';
 
   const [coupons, setCoupons] = useState([]);
   const [couponCode, setCouponCode] = useState('');
